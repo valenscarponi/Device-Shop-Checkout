@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="icon"
+      href="resources/favicon.ico"
+      type="image/x-icon"
+      sizes="96x96"
+    />
+
+    <title>Device Shop Checkout | devChallenges.io</title>
+    <link rel="stylesheet" href="./build/css/app.css">
+
+    <!--You are welcome to delete these styles or modify them in your own stylesheet -->
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        height: 100vh;
+      }
+
+      .author-info {
+        font-size: 14px;
+        text-align: center;
+        margin-top: 16px;
+        color: rgb(55, 65, 81);
+      }
+
+      .author-info a {
+        text-decoration: none;
+      }
+    </style>
+  </head>
+  <body>
+    <img class="background" src="./src/resources/background-image.png" alt="Background">
+    <main class="container">
+      <div class="introduce">
+        <h1>Checkout</h1>
+        <p class="items-span">3 items</p>
+      </div>
+
+      <!-- CHECKOUT INFORMATION --> 
+      <section class="checkout">
+        <div class="objects">
+          <div class="articles">
+            
+            <div class="list">
+              <div class="column">
+                <div class="image">
+                  <img src="./src/resources/Gold.png" alt="Telefono">
+                </div>
+                <div class="text">
+                  <p class="title">Iphone 12 Pro</p>
+                  <p class="color">Golden</p>
+                  <p>X 1</p>
+                </div>
+              </div>
+              <div class="price"">
+                <p class="money">$999.00</p>
+                <p>X</p>
+              </div>
+            </div> <!-- List Close -->
+  
+  
+            <div class="list">
+              <div class="column">
+                <div class="image">
+                  <img src="./src/resources/Apple-watch.png" alt="Apple Watch">
+                </div>
+                <div class="text">
+                  <p class="title">Apple Watch</p>
+                  <p class="color">Blue</p>
+                  <p>X 1</p>
+                </div>
+              </div>
+              <div class="price">
+                <p class="money">$399.00</p>
+                <p>X</p>
+              </div>
+            </div> <!-- List Close -->
+  
+  
+            <div class="list">
+              <div class="column">
+                <div class="image">
+                  <img src="./src/resources/iMac.png" alt="iMac">
+                </div>
+                <div class="text">
+                  <p class="title">iMac</p>  
+                  <p class="color">Green</p>
+                  <p>X 1</p>
+                </div>
+              </div>
+              <div class="price">
+                <p class="money">$1199.00</p>
+                <p class="x">X</p>
+              </div>
+            </div> <!-- List Close -->
+          </div>
+
+          <div class="bottom">
+            <form action="">
+              <input type="text" name="" id="" placeholder="Enter counpon code">
+              <input type="submit" value="Apply Coupon">
+            </form>
+  
+            <div class="total">
+              <div class="information tal">
+                <p>Sub total</p>
+                <p>Tax</p>
+                <p class="fw">Total</p>
+              </div>
+  
+              <div class="information">
+                <p>$2597.00</p>
+                <p>$623.28</p>
+                <p class="fw">$3220.28</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- CHECKOUT FORM  --> 
+
+        <div class="contact">
+          <form action="">
+            <fieldset>
+              <legend>Contact Information</legend>
+
+              <label for="name">First & Last name</label>
+              <input type="text" id="name" placeholder="Enter first & last name">
+
+              <label for="email">Email Address</label>
+              <input type="email" id="email" placeholder="Enter email Address">
+
+              <div class="selects">
+                <div class="select">
+                  <label for="country">Country</label>
+                  <select name="" id="country">
+                    <option value="">Finland</option>
+                    <option value="">Switzerland</option>
+                  </select>
+                </div>
+                <div class="select">
+                  <label for="postal-code">Postal Code</label>
+                  <input class="input-grid" type="text" id="postal-code" placeholder="00270">
+                </div>
+
+              </div>
+              <input type="submit" value="Continue">
+            </fieldset>
+          </form>
+        </div>
+
+      </section>
+    </main>
+    <!--     
+    Checkout
+    
+    3 items
+    
+    iPhone 12 Pro
+    
+    Golden
+    
+    $999.00
+    
+    x 1
+    
+    Apple Watch
+    
+    Blue
+    
+    $399.00
+    
+    iMac
+    
+    Green
+    
+    $1199.00
+    
+    Enter coupon code
+    
+    Apply Coupon
+    
+    Sub total
+    
+    $2597.00
+    
+    Tax
+    
+    $623.28
+    
+    Total
+    
+    $3220.28
+    
+    Contact Information
+    
+    First & Last name
+    
+    Enter first & last name
+    
+    Email Address
+    
+    Enter email address
+    
+    Country
+    
+    Finland
+    
+    Postal Code
+    
+    00270
+    
+    Continue
+     -->
+
+    <div class="author-info">
+      Coded by <a href="#">Your Name Here</a> | Challenge by
+      <a href="https://www.devchallenges.io?ref=challenge" target="_blank"
+        >devChallenges.io</a
+      >.
+    </div>
+  </body>
+</html>

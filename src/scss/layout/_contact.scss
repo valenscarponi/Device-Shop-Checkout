@@ -1,0 +1,59 @@
+.contact{
+    background-color: $blanco;
+
+    border-radius: 0 0 2rem 2rem;
+        
+    @include tablet{
+        border-radius: 0 2rem 2rem 0;
+
+    }
+    form{
+        padding: 1rem 0;
+        fieldset{
+            display: flex;
+            flex-direction: column;
+            border: none;
+            margin-top: 2.5rem;
+
+            legend{
+                font-weight: 700;
+                margin-bottom: 2rem;
+            }
+
+            label{
+                display: block;
+                color: $grisOscuro;
+                font-weight: 700;
+            }
+
+            input[type="text"],
+            input[type= "email"],
+            select{
+                margin: 1rem 0 3rem 0;
+                background-color: $grisClaro;
+                padding: 1.5rem;
+                border-radius: 1rem;
+                width: 100%;
+                border: 1px solid $gris;
+            }
+    
+            input[type="submit"]{
+                padding: 1.5rem;
+                background-color: $negro;
+                color: $blanco;
+                border: none;
+                border-radius: 1rem;
+            }
+
+            .selects{
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                column-gap: 2rem;
+
+                select{
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
